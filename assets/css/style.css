@@ -138,6 +138,7 @@
 
 
 .menuitem {
+
     width: 40px;
     height: 7px;
     background: #00bff4;
@@ -250,9 +251,10 @@
     outline: none;
 }
 
-/* textarea{
-    resize: horizontal !important;
-} */
+.textarea {
+    resize: none !important;
+    }
+
 .Sign {
     background: #2C49FE;
     border-radius: 23px;
@@ -331,12 +333,6 @@
         flex-direction: column;
     }
 
-    .pos_fixed_xsm_res {
-        position: fixed;
-        top: 0;
-        width: 100%;
-
-    }
 
     .mt-450-min {
         margin-top: 450px !important;

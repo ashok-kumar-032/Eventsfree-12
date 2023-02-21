@@ -18,12 +18,12 @@
 .bg-img {
     background-image: url(/assets/img/png/Rectangle\ 18.png);
     width: 100% !important;
-    background-position: center;
+    background-position: top;
     background-size: cover;
 }
 
 .pb_40_lg {
-    padding-bottom: 40px !important;
+    padding-bottom: 100px !important;
 }
 
 .container {
@@ -253,7 +253,7 @@
 
 .textarea {
     resize: none !important;
-    }
+}
 
 .Sign {
     background: #2C49FE;
@@ -394,5 +394,9 @@
 
     .mt-10-xsm {
         margin-top: 20px !important;
+    }
+
+    .font_size_xsm {
+        font-size: 17px;
     }
 }
